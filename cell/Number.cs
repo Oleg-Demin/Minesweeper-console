@@ -43,7 +43,8 @@ namespace minesweeper
                 }
                 else
                 {
-                    base.PrintCell();
+                    Console.ForegroundColor = ConsoleColor.DarkGray;
+                    Console.Write(" *");
                 }
             }
 
